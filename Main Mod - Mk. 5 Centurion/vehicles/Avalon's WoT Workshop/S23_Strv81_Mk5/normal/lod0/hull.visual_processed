@@ -1,0 +1,522 @@
+<?xml version="1.0" ?>
+<root>
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1.000000 0.000000 0.000000</row0>
+			<row1>0.000000 1.000000 0.000000</row1>
+			<row2>0.000000 0.000000 1.000000</row2>
+			<row3>0.000000 0.000000 0.000000</row3>
+		</transform>
+		<node>
+			<identifier>nodes_01</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>HP_Track_Exhaus_2</identifier>
+				<transform>
+					<row0>0.998832 0.000000 0.000000</row0>
+					<row1>0.000000 -0.962200 0.000000</row1>
+					<row2>0.000000 0.000000 -0.963368</row2>
+					<row3>1.345546 0.420238 -3.581854</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_TrackUp_LRear</identifier>
+				<transform>
+					<row0>-1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 0.834206 0.000000</row1>
+					<row2>0.000000 0.000000 -0.834206</row2>
+					<row3>-1.301828 0.031818 -3.536925</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_Track_Exhaus_1</identifier>
+				<transform>
+					<row0>0.999455 0.000000 0.000000</row0>
+					<row1>0.000000 -0.963410 0.000000</row1>
+					<row2>0.000000 0.000000 -0.963955</row2>
+					<row3>-1.349667 0.420238 -3.581360</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_TrackUp_RRear</identifier>
+				<transform>
+					<row0>-1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 0.834206 0.000000</row1>
+					<row2>0.000000 0.000000 -0.834206</row2>
+					<row3>1.301828 0.031818 -3.536925</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_Fire_2</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.452558 -0.042646 2.004145</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_Fire_1</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.079915 -0.042646 -2.620970</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_turretJoint</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.400687 0.390161</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_TrackUp_RFront</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 0.615617 0.000000</row1>
+					<row2>0.000000 0.000000 0.615617</row2>
+					<row3>1.301828 -0.080270 3.543790</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>HP_TrackUp_LFront</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 0.615617 0.000000</row1>
+					<row2>0.000000 0.000000 0.615617</row2>
+					<row3>-1.301828 -0.080270 3.543791</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+		<node>Scene Root</node>
+		<geometry>
+			<vertices>vertices</vertices>
+			<primitive>indices</primitive>
+			<primitiveGroup>
+				0
+				<material>
+					<identifier>tank_hull_01</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_Hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_Hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_Hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_Hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>0</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.0007570000016130507 -0.04264599829912186 -0.1311749964952469</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				1
+				<material>
+					<identifier>hull_s_1</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_S1_hull_02_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_S1_hull_02_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_S1_hull_02_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_S1_hull_02_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>4.20822 4.20822 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.09565799683332443 1.1236729621887207 -0.04130899906158447</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				2
+				<material>
+					<identifier>hull_churchill_3</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Churchill_LL_hull_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Churchill_LL_hull_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Churchill_LL_hull_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Churchill_LL_hull_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.18</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>1.9999999949504854e-06 -0.29009801149368286 -0.15672099590301514</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				3
+				<material>
+					<identifier>hull_268</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Object268_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Object268_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Object268_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Object268_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.02287600003182888 0.7541660070419312 -0.019014999270439148</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				4
+				<material>
+					<identifier>hull_panther</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/PzV_Panther_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/PzV_Panther_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/PzV_Panther_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/PzV_Panther_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.001740999985486269 0.07934699952602386 -0.2993839979171753</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				5
+				<material>
+					<identifier>hull_sabaton</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_sabaton_Hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_sabaton_Hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_sabaton_Hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/Strv_81_sabaton_Hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>100</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.0007570000016130507 -0.04264599829912186 -0.12686200439929962</groupOrigin>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>-1.681531 -0.817746 -4.599066</min>
+		<max>1.668267 0.966295 3.654005</max>
+	</boundingBox>
+</root>

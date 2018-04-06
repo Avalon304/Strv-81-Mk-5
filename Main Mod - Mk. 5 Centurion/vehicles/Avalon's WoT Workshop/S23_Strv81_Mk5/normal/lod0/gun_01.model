@@ -1,0 +1,10 @@
+<gun_01.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>	-0.758634 -0.365532 -0.237373	</min>
+    <max>0.809367 0.340169 4.61888</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/normal/lod0/Gun_01</nodefullVisual>
+</gun_01.model>

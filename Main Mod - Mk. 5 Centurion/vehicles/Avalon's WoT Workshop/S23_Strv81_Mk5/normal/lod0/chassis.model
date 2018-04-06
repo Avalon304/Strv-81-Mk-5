@@ -1,0 +1,10 @@
+<chassis.model>
+  <tank>	true	</tank>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.6067 0.000235203 -3.72007</min>
+    <max>1.6067 1.41584 3.57974</max>
+  </visibilityBox>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/S23_Strv81_Mk5/normal/lod0/chassis</nodefullVisual>
+</chassis.model>
